@@ -1,0 +1,31 @@
+SELECT "HELLO WORLD" AS COL1;
+
+SELECT 2+2 AS COL ;
+SELECT 3*3 AS COL;
+
+SET @num01 = 40;
+SET @num02 = 20; 
+SELECT @num01 + @num02 as addition;  
+
+SELECT RAND() RandomValue;
+
+SELECT LEAST(@num01, @num02) AS MIN_VALUE;
+
+SELECT GREATEST(@num01 , @num02) AS MAX_VALUE;
+
+SELECT PI() AS COL;
+
+-------------String Operation------------------
+select CHAR_LENGTH("HELLO WORLD") AS COL;
+
+SELECT REVERSE("HELLO WORLD") AS COL;
+
+SELECT FORMAT(123356.122,3) AS COL;
+
+SELECT CONCAT("Hello",' ',"Sql") AS COL;
+
+SELECT REPLACE('Hello World', 'World','Earth') AS COL;
+
+SELECT UPPER("Hello World") AS COL;
+
+SELECT LOWER("LUTFOR RHAMAN") AS COL;

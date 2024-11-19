@@ -1,0 +1,7 @@
+CREATE TABLE `employee02`(
+    `id` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `name` VARCHAR(100) NOT NULL,
+    `email` VARCHAR(200) NULL,
+    `salary` BIGINT(150) UNSIGNED,
+    `designation` VARCHAR(200) NOT NULL
+)
